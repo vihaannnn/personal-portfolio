@@ -134,4 +134,61 @@ export const projects = [
       externalLink: "https://devpost.com/software/improviz?ref_content=my-projects-tab&ref_feature=my_projectsv",
       image: "/projects/drone/main.jpg",
     },
+
+
   ];
+
+  export const publications = [
+    {
+      title: "SmartLawAnnotator: A Machine Learning-Based Annotation Recommendation for Judgment Prediction",
+      authors: "Avadhut Shelar, Minal Moharir, Vihaan Nama, Jaikishan Jaikumar, Varadraj Patil, Akhil Edupuganti",
+      externalLink: "https://link.springer.com/chapter/10.1007/978-981-99-9518-9_30",
+      datePublished: "2023/9/21",
+      book: "International Conference on Advances in Data-driven Computing and Intelligent Systems",
+      publisher: "Springer Nature Singapore",
+    },
+    {
+      title: "IDTCKS: An Intelligent Integrative Approach for Disaster Tweet Classification and Disaster-Related Document Classification Using Knowledge-Driven Hybrid Semantics",
+      authors: "Vihaan Nama, Gerard Deepak",
+      externalLink: "https://link.springer.com/chapter/10.1007/978-981-99-9518-9_310",
+      datePublished: "2023/9/21",
+      book: "International Conference on Advances in Data-driven Computing and Intelligent Systems",
+      publisher: "Springer Nature Singapore",
+    },
+    {
+      title: "DTagRecPLS: diversification of tag recommendation for videos using preferential learning and differential semantics",
+      authors: "Vihaan Nama, Gerard Deepak",
+      externalLink: "https://link.springer.com/chapter/10.1007/978-3-031-27524-1_87",
+      datePublished: "2022/12/14",
+      book: "International Conference on Soft Computing and Pattern Recognition",
+      publisher: "Springer Nature Switzerland",
+    },
+    {
+      title: "KCReqRec: a knowledge centric approach for semantically inclined requirement recommendation with micro requirement mapping using hybrid learning models",
+      authors: "Vihaan Nama, Gerard Deepak, A Santhanavijayan",
+      externalLink: "https://link.springer.com/chapter/10.1007/978-3-031-27440-4_2",
+      datePublished: "2022/12/14",
+      book: "International Conference on Soft Computing and Pattern Recognition",
+      publisher: "Springer Nature Singapore",
+    },
+    {
+      title: "A Comprehensive Review of Migration of Big Data Applications to Public Clouds: Current Requirements, Types, Strategies, and Case Studies",
+      authors: "Vihaan Nama, H Vishalakshi Prabhu",
+      externalLink: "https://link.springer.com/chapter/10.1007/978-981-97-0180-3_12",
+      datePublished: "2022/10/15",
+      book: "International Joint Conference on Advances in Computational Intelligence",
+      publisher: "Springer Nature Singapore",
+    },
+    {
+      title: "Sentiment analysis of movie reviews: A comparative study between the naive-bayes classifier and a rule-based approach",
+      authors: "Vihaan Nama, Vinay Hegde, B Satish Babu",
+      externalLink: "https://ieeexplore.ieee.org/abstract/document/9399610",
+      datePublished: "2021/2/11",
+      book: "2021 International Conference on Innovative Trends in Information Technology (ICITIIT)",
+      publisher: "IEEE",
+    },
+    
+
+
+  ];
+  ;
