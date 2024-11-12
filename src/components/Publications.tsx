@@ -27,29 +27,37 @@ export function Publication({ publication }: PublicationProps) {
               <div className="flex justify-between items-start">
                 <div>
                   <h3 className="font-semibold">{item.title}</h3>
-                  <p className="text-sm text-muted-foreground">
-                    {item.book}
-                  </p>
+                  
                 </div>
-                <div className="text-right">
-                  <p className="text-sm text-muted-foreground">{item.datePublished}</p>
-                  <p className="text-sm text-muted-foreground">
-                    {item.publisher}
-                  </p>
-                </div>
-              </div>
-              <Link
+                
+                
+                <div className="flex justify-between items-start gap-4">
+                <Link
                   href={item.externalLink}
                   target="_blank"
                   className="text-muted-foreground hover:text-primary"
                 >
                   <ExternalLinkIcon className="h-4 w-4" />
                 </Link>
+                </div>
+              </div>
+              
             </CardHeader>
             <CardContent>
-            {/* <p className="text-sm text-muted-foreground">
-                {item.description}
-              </p> */}
+            <p className="text-sm text-muted-foreground">
+              {item.authors}
+            </p>
+            <p className="text-sm text-muted-foreground">
+                    {item.book}
+                  </p>
+            
+            <p className="text-sm text-muted-foreground">
+              {item.publisher}
+            </p>
+
+            <p className="text-sm text-muted-foreground">
+              {item.datePublished}
+            </p>
             </CardContent>
           </Card>
         ))}
