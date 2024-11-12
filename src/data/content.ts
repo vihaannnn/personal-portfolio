@@ -136,7 +136,7 @@ export const projects = [
     },
 
 
-  ]
+  ];
 
   export const publications = [
     {
@@ -190,5 +190,5 @@ export const projects = [
     
 
 
-  ]
+  ];
   ;
