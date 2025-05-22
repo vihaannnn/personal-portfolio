@@ -5,7 +5,7 @@ interface EducationItem {
   school: string;
   location: string;
   period: string;
-  description: string;
+  description: string[];
 }
 
 interface EducationProps {
@@ -16,11 +16,11 @@ export function Education({ education }: EducationProps) {
   return (
     <section className="space-y-6">
       <h2 className="text-2xl font-semibold">Education</h2>
-      <div className="space-y-6">
+      <div className="space-y-6" >
         {education.map((item) => (
           <Card key={item.school}>
             <CardHeader>
-              <div className="flex justify-between items-start">
+              <div className="flex justify-between items-start" >
                 <div>
                   <h3 className="font-semibold">{item.degree}</h3>
                   <p className="text-sm text-muted-foreground">{item.school}</p>
@@ -35,7 +35,9 @@ export function Education({ education }: EducationProps) {
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground">
-                {item.description}
+                {item.description.map((description) => (
+                <li key={description}>{description}</li>
+              ))}
               </p>
             </CardContent>
           </Card>

@@ -8,7 +8,7 @@ export const personalInfo = {
   contact: {
     email: "vihaan.nama@outlook.com",
     github: "https://github.com/vihaannnn",
-    linkedin: "https://www.linkedin.com/in/vihaan-nama//",
+    linkedin: "https://www.linkedin.com/in/vihaan-nama/",
     twitter: "https://twitter.com/",
   }
 };
@@ -47,8 +47,8 @@ export const experience = [
     location: "Warren, New Jersey - Remote",
     period: "August 2024 - On Going",
     description: [
-      "Developing an AI tool that implements open source LLMs and web scraping techniques to filter for architectural proposals that fit the company's qualifications, with potential to save 100+ man-hours per quarter.",
-      "Designing a document retrieval system using vector databases, open source large language models and retrieval augmented generation to filter relevant parts of a document corpus based on a user query.",
+      "Developed an agentic FAQ AI system, which can automatically decide to obtain data one of multiple sources of information and provide accurate results based on the user's query.",
+      "Designed a general AI chatbot using open-source AI models via Ollama, implementd built in conversation history, memory, automatic 'Chat-with-PDF', and various other functionalities."
     ],
   },
   {
@@ -104,7 +104,10 @@ export const education = [
     school: "Duke University",
     location: "Durham, NC",
     period: "2024 - 2025",
-    description: "Grade 4.0/4.0",
+    description: ["Grade: 4.0/4.0",
+    "Summer 2025 : Operationalizing AI" ,
+    "Spring 2025 : Large Language Models, Data Analysis at Scale in the Cloud, Deep Learning Applications, Management in High Tech Industries, Captstone Practicum",
+    "Fall 2024 : Sourcing Data for Analytics, Modelling Process & Algorithms, Emerging Trends in XAI, Business Fundamentals For Engineers, AIPI Seminar, Career Design & Strategy"],
   },
   {
     degree: "Bachelor of Engineering in Computer Science",
@@ -112,7 +115,7 @@ export const education = [
     location: "Bangalore, India",
     period: "2019 - 2023",
     description: 
-      "Grade: 8.59/10",
+      ["Grade: 8.59/10"],
   },
 ]; 
 
